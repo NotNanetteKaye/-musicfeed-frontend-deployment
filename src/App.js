@@ -30,7 +30,8 @@ function App() {
       <NavBar />
      <MusicTable songs={songs}/>
     <Container>     
-     <MusicForm addNewMusic={AddNewMusic}/>    
+     <MusicForm addNewMusic={AddNewMusic}/>  
+     <h1>You can add new music here!</h1>  
     </Container></>
   );
 }
